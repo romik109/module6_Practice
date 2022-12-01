@@ -7,7 +7,7 @@ userText.oninput = function() {
 
 buttonEvent.addEventListener('click', (event) => {
 
-    console.log(  userText.value + '  - Введенный и подтвержденный нажатием текст');
+    console.log(  userText.value + '  - Введенный и подтвержденный нажатием текст ');
     event.preventDefault(userText.value=duplicateField.innerHTML='');
 })
 
